@@ -1,0 +1,16 @@
+.venv/
+venv/
+__pycache__/
+.pytest_cache/
+*.egg-info/
+.env
+data/
+artifacts/
+mlruns/
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.db
+
+*.pyc

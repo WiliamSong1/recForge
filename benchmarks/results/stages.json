@@ -1,0 +1,67 @@
+{
+  "version": "95784e666e9ff1d3",
+  "environment": {
+    "python": "3.12.15 (main, Sep 30 2026, 22:04:19) [Clang 17.0.0 (clang-1700.6.4.2)]",
+    "platform": "macOS-15.7.4-arm64-arm-64bit",
+    "machine": "arm64",
+    "processor": "arm",
+    "logical_cpu_count": 8,
+    "hardware_note": "CPU brand and physical RAM unavailable in this sandbox; timings are local observations, not portable guarantees.",
+    "torch": "2.15.0",
+    "numpy": "2.5.4",
+    "faiss": "1.15.1",
+    "sklearn": "1.9.1",
+    "peak_process_rss_bytes": 408535040
+  },
+  "stages": [
+    {
+      "candidates": 20,
+      "queries": 500,
+      "retrieval": {
+        "mean_ms": 0.12559244269505143,
+        "p95_ms": 0.2541505498811602
+      },
+      "features": {
+        "mean_ms": 0.021544162184000015,
+        "p95_ms": 0.06059759762138127
+      },
+      "ranking_and_sorting": {
+        "mean_ms": 1.2268983325921,
+        "p95_ms": 1.5213880920782683
+      }
+    },
+    {
+      "candidates": 100,
+      "queries": 500,
+      "retrieval": {
+        "mean_ms": 0.17713502096012235,
+        "p95_ms": 0.3431169316172598
+      },
+      "features": {
+        "mean_ms": 0.03017278853803873,
+        "p95_ms": 0.08651418611407274
+      },
+      "ranking_and_sorting": {
+        "mean_ms": 1.5774103924632072,
+        "p95_ms": 2.3411629023030374
+      }
+    },
+    {
+      "candidates": 300,
+      "queries": 500,
+      "retrieval": {
+        "mean_ms": 0.2857308038510382,
+        "p95_ms": 0.525945599656552
+      },
+      "features": {
+        "mean_ms": 0.04763823142275214,
+        "p95_ms": 0.1319811097346246
+      },
+      "ranking_and_sorting": {
+        "mean_ms": 1.825237745884806,
+        "p95_ms": 2.1489730919711287
+      }
+    }
+  ],
+  "scope": "Single process, established training users; no HTTP or database; first query included"
+}

@@ -1,0 +1,17 @@
+{
+  "seed": 44,
+  "dimension": 48,
+  "epochs": 12,
+  "batch_size": 4096,
+  "learning_rate": 0.003,
+  "weight_decay": 1e-05,
+  "patience": 3,
+  "candidates": 100,
+  "min_history": 5,
+  "positive_rating": 4.0,
+  "train_fraction": 0.8,
+  "validation_fraction": 0.1,
+  "rank_train_fraction": 0.8,
+  "threads": 4,
+  "device": "cpu"
+}

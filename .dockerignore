@@ -1,0 +1,7 @@
+data
+artifacts
+.venv
+.git
+__pycache__
+*.db
+benchmarks
